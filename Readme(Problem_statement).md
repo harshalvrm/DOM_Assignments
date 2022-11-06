@@ -12,7 +12,7 @@
 
 ### Tasks
 
-        Target the Top description div and change the DEV Community to <Your_Name> and description to your passion
+        Target the Top description div and change the DEV Community to <Your_Name> and description to your passion.
 
 ### Output
 
@@ -22,16 +22,18 @@
 
 > ## Solution : 
 
-> `
-document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerHTML = "INeuron";
-document.querySelector(".side-bar .color-base-70").innerHTML = "I Write Code";
-`
+```
+let INeuron = document.querySelector(".side-bar .crayons-card .crayons-subtitle-2");
+
+INeuron.innerHTML = "INeuron"
+
+let ICode = document.querySelector(".side-bar .color-base-70");
+
+ICode.innerHTML = "I Write Code"
+```
 
 ![Output](./Answers_Screenshot/Solution_01.png)
 
-<br>
-<br>
-<br>
 <br>
 <br>
 ---
@@ -40,13 +42,29 @@ document.querySelector(".side-bar .color-base-70").innerHTML = "I Write Code";
 
 ### Task
 
-![Store](./Picture_3.png)
+![Store](./Questions_Screenshot/Picture_3.png)
 
 ### Fetch all the product name and store in an array
 
 ### Output
 
 ['iPhone', 'Mac', 'iPad', 'Watch', 'AirPods', 'Music', 'TV']
+
+
+> ## Solution : 
+
+```
+let text = document.querySelectorAll(".as-imagegrid-item-title");
+let products = []; 
+for(let item of text){
+    products.push(item.innerText.split('\n')[0])
+}
+```
+
+![Output](./Answers_Screenshot/Solution_02.png)
+
+<br>
+<br>
 
 3. Webiste Name: [Youtube Support](https://support.google.com/youtube/)
 
@@ -56,7 +74,7 @@ document.querySelector(".side-bar .color-base-70").innerHTML = "I Write Code";
 
 ### Sample Image
 
-![Sample One](./Pic4.png)
+![Sample One](./Questions_Screenshot/Pic4.png)
 
 ### Tasks
 
