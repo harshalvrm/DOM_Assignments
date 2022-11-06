@@ -18,6 +18,24 @@
 
 ![Output](./Questions_Screenshot/Pic2.png)
 
+
+
+> ## Solution : 
+
+> `
+document.querySelector(".side-bar .crayons-card .crayons-subtitle-2").innerHTML = "INeuron";
+document.querySelector(".side-bar .color-base-70").innerHTML = "I Write Code";
+`
+
+![Output](./Answers_Screenshot/Solution_01.png)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+---
+
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
 ### Task
