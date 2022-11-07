@@ -83,7 +83,7 @@ for(let item of text){
 
 ### Output
 
-![Output](./Pic5.png)
+![Output](./Questions_Screenshot/Pic5.png)
 
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
@@ -93,7 +93,7 @@ for(let item of text){
 
 ### Sample Image
 
-![Sample One](./Pic6.png)
+![Sample One](./Questions_Screenshot/Pic6.png)
 
 ### Tasks
 
@@ -101,7 +101,21 @@ for(let item of text){
 
 ### Output
 
-![Output](./Pic7.png)
+![Output](./Questions_Screenshot/Pic7.png)
+
+> ## Solution : 
+
+```
+document.querySelector(".one-tel-number").innerText = "+91 6366256689";
+```
+
+![Output](./Answers_Screenshot/Solution_04.png)
+
+<br>
+<br>
+
+---
+
 
 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
