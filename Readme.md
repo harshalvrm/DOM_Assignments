@@ -22,13 +22,13 @@
 > ## Solution : 
 
 ```
-let INeuron = document.querySelector(".side-bar .crayons-card .crayons-subtitle-2");
+> let INeuron = document.querySelector(".side-bar .crayons-card .crayons-subtitle-2");
 
-INeuron.innerHTML = "INeuron"
+> INeuron.innerHTML = "INeuron"
 
-let ICode = document.querySelector(".side-bar .color-base-70");
+> let ICode = document.querySelector(".side-bar .color-base-70");
 
-ICode.innerHTML = "I Write Code"
+> ICode.innerHTML = "I Write Code"
 ```
 
 ![Output](./Answers_Screenshot/Solution_01.png)
@@ -53,9 +53,9 @@ ICode.innerHTML = "I Write Code"
 > ## Solution : 
 
 ```
-let text = document.querySelectorAll(".as-imagegrid-item-title");
-let products = []; 
-for(let item of text){
+> let text = document.querySelectorAll(".as-imagegrid-item-title");
+> let products = []; 
+> for(let item of text){
     products.push(item.innerText.split('\n')[0])
 }
 ```
@@ -85,6 +85,24 @@ for(let item of text){
 
 ![Output](./Questions_Screenshot/Pic5.png)
 
+> ## Solution : 
+
+```
+> var referenceLine = document.querySelector(".accordion-homepage");
+> var newLine = document.createElement("section");
+> newLine.className = "parent";
+> newLine.innerHTML = "<h3>My New FAQ</h3>"
+> referenceLine.appendChild(newLine);
+}
+```
+
+![Output](./Answers_Screenshot/Solution_03.png)
+
+<br>
+<br>
+
+
+---
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
 ### Topics
@@ -106,12 +124,11 @@ for(let item of text){
 > ## Solution : 
 
 ```
-document.querySelector(".one-tel-number").innerText = "+91 6366256689";
+> document.querySelector(".one-tel-number").innerText = "+91 6366256689";
 ```
 
 ![Output](./Answers_Screenshot/Solution_04.png)
 
-<br>
 <br>
 
 ---
@@ -125,7 +142,7 @@ document.querySelector(".one-tel-number").innerText = "+91 6366256689";
 
 ### Sample Image
 
-![Sample One](./Pic8.png)
+![Sample One](./Questions_Screenshot/Pic8.png)
 
 ### Tasks
 
@@ -133,7 +150,23 @@ document.querySelector(".one-tel-number").innerText = "+91 6366256689";
 
 ### Output
 
-![Output](./Pic9.png)
+![Output](./Questions_Screenshot/Pic9.png)
+
+> ## Solution : 
+
+```
+> let entirePageButton = document.querySelectorAll(".diwali-deals-product-sale-btn");
+> for (let i = 0; i < entirePageButton.length; i++) {
+    entirePageButton[i].innerText = "Check Out";
+}
+```
+
+![Output](./Answers_Screenshot/Solution_05.png)
+
+<br>
+
+---
+
 
 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
