@@ -176,7 +176,7 @@
 
 ### Sample Image
 
-![Sample One](./Pic10.png)
+![Sample One](./Questions_Screenshot/Pic10.png)
 
 ### Tasks
 
@@ -184,7 +184,27 @@
 
 ### Output
 
-![Output](./Pic11.png)
+![Output](./Questions_Screenshot/Pic11.png)
+
+> ## Solution : 
+
+```
+> var search = document.querySelector(".searchinput___19uW0");
+
+> function changeColor(){ 
+search.style.backgroundColor = "#FF0000";
+}
+
+> search.addEventListener("mouseover", changeColor);
+
+```
+
+![Output](./Answers_Screenshot/Solution_06.png)
+
+<br>
+
+---
+
 
 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
