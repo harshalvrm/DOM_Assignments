@@ -214,16 +214,17 @@ search.style.backgroundColor = "#FF0000";
 
 ### Sample Image
 
-![Sample One](./Pic12.png)
+![Sample One](./Questions_Screenshot/Pic12.png)
 
 ### Tasks
 
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
+Hint: First add attribute of value in HTML and then use docuemnt.forms for further.
 
 ### Output
 
-![Output](./Pic13.png)
+![Output](./Questions_Screenshot/Pic13.png)
 
 8. Webiste Name: [Google](https://www.google.com/)
 
@@ -233,7 +234,7 @@ search.style.backgroundColor = "#FF0000";
 
 ### Sample Image
 
-![Sample One](./Pic14.png)
+![Sample One](./Questions_Screenshot/Pic14.png)
 
 ### Tasks
 
@@ -241,7 +242,28 @@ search.style.backgroundColor = "#FF0000";
 
 ### Output
 
-![Output](./Pic15.png)
+![Output](./Questions_Screenshot/Pic15.png)
+
+
+> ## Solution : 
+
+```
+> let languages = document.getElementById("SIvCob").querySelectorAll("a");
+
+>Array.from(languages);
+
+>for (let i=3; i<languages.length; i++) {
+    languages[i].remove()
+}
+```
+
+![Output](./Answers_Screenshot/Solution_06.png)
+
+<br>
+
+---
+
+
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
@@ -251,7 +273,7 @@ search.style.backgroundColor = "#FF0000";
 
 ### Sample Image
 
-![Sample One](./Pic16.png)
+![Sample One](./Questions_Screenshot/Pic16.png)
 
 ### Tasks
 
