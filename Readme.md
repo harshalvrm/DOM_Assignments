@@ -220,11 +220,26 @@ search.style.backgroundColor = "#FF0000";
 
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
-Hint: First add attribute of value in HTML and then use docuemnt.forms for further.
 
 ### Output
 
 ![Output](./Questions_Screenshot/Pic13.png)
+
+> ## Solution : 
+
+```
+> let search = document.getElementById("top-nav-search-input");
+> search.value = "CSS Selector"
+> document.querySelector(".search-button").click();
+
+```
+
+![Output](./Answers_Screenshot/Solution_07.png)
+![Output](./Answers_Screenshot/Solution_07-02.png)
+
+<br>
+
+---
 
 8. Webiste Name: [Google](https://www.google.com/)
 
@@ -242,28 +257,7 @@ Hint: First add attribute of value in HTML and then use docuemnt.forms for furth
 
 ### Output
 
-![Output](./Questions_Screenshot/Pic15.png)
-
-
-> ## Solution : 
-
-```
-> let languages = document.getElementById("SIvCob").querySelectorAll("a");
-
->Array.from(languages);
-
->for (let i=3; i<languages.length; i++) {
-    languages[i].remove()
-}
-```
-
-![Output](./Answers_Screenshot/Solution_06.png)
-
-<br>
-
----
-
-
+![Output](./Pic15.png)
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
@@ -273,7 +267,7 @@ Hint: First add attribute of value in HTML and then use docuemnt.forms for furth
 
 ### Sample Image
 
-![Sample One](./Questions_Screenshot/Pic16.png)
+![Sample One](./Pic16.png)
 
 ### Tasks
 
