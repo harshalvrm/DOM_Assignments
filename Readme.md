@@ -257,7 +257,7 @@ search.style.backgroundColor = "#FF0000";
 
 ### Output
 
-![Output](./Pic15.png)
+![Output](./Questions_Screenshot/Pic15.png)
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
@@ -267,7 +267,7 @@ search.style.backgroundColor = "#FF0000";
 
 ### Sample Image
 
-![Sample One](./Pic16.png)
+![Sample One](./Questions_Screenshot/Pic16.png)
 
 ### Tasks
 
