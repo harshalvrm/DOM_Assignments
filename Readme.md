@@ -259,6 +259,26 @@ search.style.backgroundColor = "#FF0000";
 
 ![Output](./Questions_Screenshot/Pic15.png)
 
+> ## Solution : 
+
+```
+> let name = document.querySelector('#SIvCob').querySelectorAll('a');
+> for(let i=0; i<name.length; i++){
+    if (i%2 != 1){
+        name[i].remove()
+    }
+}
+
+```
+
+![Output](./Answers_Screenshot/Solution_08.png)
+
+<br>
+
+---
+
+
+
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
 ### Topics
